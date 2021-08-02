@@ -33,7 +33,7 @@ int main() {
     if (value > number)
       std::cout << "To high (you have " << 7 - i - 1 << " attempts). Try again!" << std::endl;
     else if (value < number)
-      std::cout << "To low (you have " << i << " attempts). Try again!" << std::endl;
+      std::cout << "To low (you have " << 7 - i - 1 << " attempts). Try again!" << std::endl;
     else {
       std::cout << "You win! The number was " << number << "!" << std::endl;
       return 0;
